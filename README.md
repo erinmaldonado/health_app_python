@@ -12,12 +12,16 @@ the user can view a chart with information about their health.
 as well as take user inputs for notes, scale of
 symptoms, and more. 
 
-### Create an application with Python, Django, and SQLite Database using PyCharm.
-
 ---
 
+## Create an application with Python, Django, and SQLite Database using PyCharm.
+
 ### Setting up the project
-// Must have PyCharm installed as well as Python to begin.
+*Must have PyCharm installed as well as Python to begin.*
+
+https://www.python.org/downloads/
+
+https://www.jetbrains.com/pycharm/download/
 
 1. Create a new project
 2. Select Django
@@ -51,3 +55,15 @@ You should see a page created by Django, which lets you know
 the server is running properly.
 
 ![Screen Shot 2023-06-21 at 15.32.45 PM.png](health_app_python%2Fimg%2FScreen%20Shot%202023-06-21%20at%2015.32.45%20PM.png)
+
+---
+
+### Possible errors
+
+If you get an error message after the last step
+try changing the port number.
+
+
+`python3 manage.py runserver 8001`
+
+If this does not work, try other port numbers with the same command
