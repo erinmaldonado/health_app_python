@@ -33,7 +33,7 @@ for Django will be included
 
 1. ```python3 manage.py migrate```
 
-![Screen Shot 2023-06-21 at 15.28.04 PM.png](..%2F..%2FDesktop%2FScreen%20Shot%202023-06-21%20at%2015.28.04%20PM.png)
+![database](health_app_python/img/Screen Shot 2023-06-21 at 15.28.04 PM.png)
 
 2. To confirm that the database has been added run ```ls```
 
@@ -45,10 +45,11 @@ for Django will be included
 
 `python3 manage.py runserver`
 
-![Screen Shot 2023-06-21 at 15.28.59 PM.png](..%2F..%2FDesktop%2FScreen%20Shot%202023-06-21%20at%2015.28.59%20PM.png)
+![server](health_app_python/img/Screen Shot 2023-06-21 at 15.28.59 PM.png)
+
 
 Click the link to go to the web-page.
 You should see a page created by Django, which lets you know
 the server is running properly.
 
-![Screen Shot 2023-06-21 at 15.32.45 PM.png](..%2F..%2FDesktop%2FScreen%20Shot%202023-06-21%20at%2015.32.45%20PM.png)
+![run](health_app_python/img/Screen Shot 2023-06-21 at 15.32.45 PM.png)
