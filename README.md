@@ -12,12 +12,11 @@ the user can view a chart with information about their health.
 as well as take user inputs for notes, scale of
 symptoms, and more. 
 
-# Setting up the project
+### Create an application with Python, Django, and SQLite Database using PyCharm.
 
 ---
 
-### Create an application with Python, Django, and SQLite Database using PyCharm.
-
+### Setting up the project
 // Must have PyCharm installed as well as Python to begin.
 
 1. Create a new project
@@ -31,13 +30,13 @@ for Django will be included
 
 ### Create the database
 
-1. ```python3 manage.py migrate```
+```python3 manage.py migrate```
 
-![database](health_app_python/img/Screen Shot 2023-06-21 at 15.28.04 PM.png)
+![Screen Shot 2023-06-21 at 15.28.04 PM.png](health_app_python%2Fimg%2FScreen%20Shot%202023-06-21%20at%2015.28.04%20PM.png))
 
-2. To confirm that the database has been added run ```ls```
+To confirm that the database has been added run ```ls```
 
-3. Your folder should now contain a `db.sqlite3` file
+Your folder should now contain a `db.sqlite3` file
 
 ---
 
@@ -45,11 +44,10 @@ for Django will be included
 
 `python3 manage.py runserver`
 
-![server](health_app_python/img/Screen Shot 2023-06-21 at 15.28.59 PM.png)
-
+![Screen Shot 2023-06-21 at 15.28.59 PM.png](health_app_python%2Fimg%2FScreen%20Shot%202023-06-21%20at%2015.28.59%20PM.png)
 
 Click the link to go to the web-page.
 You should see a page created by Django, which lets you know
 the server is running properly.
 
-![run](health_app_python/img/Screen Shot 2023-06-21 at 15.32.45 PM.png)
+![Screen Shot 2023-06-21 at 15.32.45 PM.png](health_app_python%2Fimg%2FScreen%20Shot%202023-06-21%20at%2015.32.45%20PM.png)
