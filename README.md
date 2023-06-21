@@ -67,3 +67,15 @@ try changing the port number.
 `python3 manage.py runserver 8001`
 
 If this does not work, try other port numbers with the same command
+
+---
+
+### Create infrastructure to build app
+
+`python3 manage.py startapp health_app`
+
+Notice the name is different from the original. This creates a directory inside the root.
+
+
+In the new directory: *models.py, admin.py, and views.py*
+are created.
