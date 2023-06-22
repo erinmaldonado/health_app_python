@@ -1,0 +1,19 @@
+{% extends "health_app/base.html" %}
+
+{% block content %}
+
+    <p>Symptoms</p>
+
+    <ul>
+    {% for symptom in symptoms %}
+        <li>
+            {{ symptom }}
+        </li>
+    {% empty %}
+    <li>
+        No symptoms have been added yet.
+    </li>
+    {% endfor %}
+    </ul>
+
+{% endblock content %}

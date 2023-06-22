@@ -8,4 +8,6 @@ app_name = 'health_app'
 urlpatterns = [
     # Home Page
     path('', views.index, name='index'),
+    # Page that shows all symptoms
+    path('symptoms/', views.symptoms, name='symptoms'),
 ]
